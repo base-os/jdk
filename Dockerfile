@@ -1,4 +1,2 @@
 FROM ghcr.io/zzqxvii/docker-builder:alpine-v2
-RUN apk add --no-cache shadow procps coreutils bash sudo
-RUN apk add pstree
-
+RUN apk add --no-cache shadow procps coreutils bash sudo psmisc
